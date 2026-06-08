@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #090514;
+    --foreground: #f8fafc;
+  }
+  body {
+    background: radial-gradient(circle at top right, #1e1b4b, #090514 60%);
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/[0.03] backdrop-blur-md border border-white/[0.08];
+  }
+  .glass-card {
+    @apply bg-white/[0.05] backdrop-blur-sm border border-white/10;
+  }
+  .glass-input {
+    @apply bg-white/[0.02] border border-white/10 focus:border-[#4F46E5] focus:ring-1 focus:ring-indigo-500/30 outline-none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
