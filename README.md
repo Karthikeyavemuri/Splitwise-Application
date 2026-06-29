@@ -38,4 +38,4 @@ Built with a stunning **Glassmorphism** aesthetic, SplitSmart focuses on an exce
 ## Security
 This application utilizes strict **Supabase Row-Level Security (RLS)**. Users can only fetch and view groups they are explicitly a member of, ensuring total financial privacy.
 
-<!-- Streak maintained on 2026-06-28 -->
+<!-- Streak maintained on 2026-06-29 -->
